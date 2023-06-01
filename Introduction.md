@@ -10,9 +10,9 @@ has_children: true
 ---
 
 Goals:
-* learn some git commands
-* start a project
-* learn to collaborate
+- [ ] learn some git commands
+- [ ] start a project
+- [ ] learn to collaborate
 
 ---
 
