@@ -2,9 +2,10 @@ title: Git Workshop
 description: Using git to build software
 theme: just-the-docs
 
-url: https://tonyburwinkel.github.io
+url: https://tonyburwinkel.github.io/git-workshop
 
 aux_links:
   Useful Links: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/tonyburwinkel/git-workshop
 
 color_scheme: dark
