@@ -51,5 +51,3 @@ So as we can see, now that README.md has been added, git is watching it for chan
 git add README.md 
 git status
 ```
-
-Remember that anytime we make changes to a file that git is tracking for us, we will need to add the file to the index again in order for our changes to be in our commit.
