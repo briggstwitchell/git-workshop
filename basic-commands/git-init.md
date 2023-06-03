@@ -28,4 +28,7 @@ There it is! Our git repository is being maintained in the .git folder.
 aristotle@aristotle:~/ws-playground$ ls -a
 .  ..  .git
 ```
-Note, this is a **hidden** folder, so it won't always show up in your file system. Git knows it is there and will use it to track anything that we tell it to in this directory and any subdirectories. Let's see what git is up to...
+
+Note, .git is a **hidden** folder, so it won't always show up in your file system. Git knows it is there and will use it to track anything that we tell it to. 
+
+Since our repository was started in this directory, git will track any files we tell it about in this directory or any subdirectories we create. 
