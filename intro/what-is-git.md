@@ -16,8 +16,11 @@ Git was created by Linus Torvalds, the guy who wrote the Linux kernel. Linus mad
 # What does git do?
 
 ---
-
+### The Tale of Hansel and Git-el
+<br>
 !["hansel and gretel"](../resized/breadcrumbs.jpg)
 {: .text-center}
 
-Git keeps a record of all the files in a certain folder so that you can go back to previous states of your project. These previous states are called __commits__. We will cover commits later, but for now, just think of each commit as a bread crumb. Git allows us to leave a trail of these bread crumbs so that we can find our way back if we get lost or make a mistake while we develop our software.
+Git keeps a record of all the files in a certain folder so that you can go back to previous states of your project. 
+
+These previous states are called __commits__. We will cover commits later, but for now, just think of each commit as a bread crumb. Git allows us to leave a trail of these bread crumbs so that we can find our way back if we get lost or make a mistake while we develop our software.
