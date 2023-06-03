@@ -5,7 +5,18 @@ parent: Basic Commands
 nav_order: 3
 ---
 
+# Git add
+
+---
+
+
 Let's start tracking files with git. We can do this with the add command:
+
+The add command takes this format:
+```bash
+git add <filename>
+```
+Let's use it to start tracking the README file we made:
 
 ```bash
 git add README.md
@@ -50,4 +61,15 @@ So as we can see, now that README.md has been added, git is watching it for chan
 ```bash
 git add README.md 
 git status
+```
+---
+Pro-tip
+{: .label .label-red}
+Often, we will just want to back up everything we've worked on in the directory. Instead of adding each file individually, we can just add all files:
+```bash
+git add .
+```
+or:
+```bash
+git add -A
 ```

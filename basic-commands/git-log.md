@@ -5,7 +5,9 @@ parent: Basic Commands
 nav_order: 5
 ---
 
-All this time, we've been adding to the graph...
+# Git log
+
+---
 
 ```bash
 git log

@@ -5,7 +5,7 @@ nav_order: 1
 has_children: true
 ---
 
-# Welcome to the Workshop!
+# Welcome to the Git Workshop!
 {: .text-center}
 
 ---

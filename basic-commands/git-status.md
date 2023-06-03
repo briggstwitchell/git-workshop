@@ -5,6 +5,9 @@ parent: Basic Commands
 nav_order: 2
 ---
 
+# Git status
+---
+
 Anytime we want to see what's going on with git, we can run this command:
 
 ```bash
@@ -21,9 +24,9 @@ nothing to commit (create/copy files and use "git add" to track)
 ```
 
 Git status is a very handy command. It tells us:
-* where we are 
-* what we've done
-* some options for what we can do.
+* where we are - right now, we're on the main branch
+* what we've done - we haven't committed anything yet
+* what we can do - we can add files to start tracking them
 
 ***
 
