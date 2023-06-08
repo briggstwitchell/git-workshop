@@ -26,3 +26,6 @@ callouts:
   copy-code:
     title: "Copy me!"
     color: yellow
+
+mermaid:
+  version: "10.2.2"

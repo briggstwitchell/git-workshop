@@ -80,3 +80,11 @@ Note that this is the same as our current commit hash. This is because branches 
 ## Git is a graph
 
 Specifically, it's a Directed Acyclic Graph. 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
