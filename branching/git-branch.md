@@ -6,40 +6,88 @@ nav_order: 1
 ---
 # Git branch
 ---
+So we have a simple website set up. 
 
-Let's add another file to our project:
+Now we want to continue developing it, but we want to avoid messing up the work we have already done.
+
+Git can help us with this. To keep our main branch separated from any changes we are about to make, we should create a new __branch__.
+
+Let's add some very simple styling to our website. 
+
+First, let's make a new branch by running this command:
 
 ```bash
-touch style.css
-echo "body {background-color: gray}" > style.css
-git add . 
-git commit -m "added styles"
+git branch add-styles
 ```
 
-We are at a point now where we might think about different ways we could develop our website. Suppose we wanted to see how our website looked with a yellow background, but we didn't want to lose the current state of our website. 
+Notice the form of the git branch command is ```git branch <new-branchname>```. Our new branch name can't contain any spaces, and should give some idea of what kind of changes we are thinking about implementing on the branch.
 
-This is where __branching__ becomes useful. Obviously, this website is very simple, but if we were considering making major changes to the site, or adding a new feature, we would want to make a branch to work on these changes before we committed them to our working website. Let's make a new branch with the branch command:
+Let's run ```git log --oneline``` again to see what's going on with git:
 
-```bash 
-git branch yellow-bg
-```
-
-Let's see what that did by running ```git log --oneline``` again:
-
-> ```bash
-> 8a36368 (HEAD -> main) added styles
-> c6694de (yellow-bg) added index.html
-> 6f86afa first commit, added README
+> ```git
+> 8828696 (HEAD -> main, add-styles) added index.html
+> c750089 first commit, added README.md
 > ```
 {: .terminal}
 
-We can see our new branch, yellow-bg. 
-We've created the branch, but we haven't actually switched to it yet. 
-We know this because of the line that says HEAD -> main. 
-HEAD is just a variable that git uses to tell us where we are in the repository structure. Most git repositories have at least one __integration branch__, like main. 
+There's our new branch, add-styles, right next to main. We can see that HEAD is pointing to main right now. This means that we have created our new branch, but we still need to __switch__ to it.
 
-When we want to make changes to the integration branch, we make other branches, like yellow-bg, so we don't muddy up our integration branch with changes we haven't tested or fully implemented yet. 
+We can switch to our new branch by using this command:
 
-This is an essential part of software development known as CI/CD, or continuous integration/continuous development. Version control systems like git make CI/CD possible. This is how you can have a live website that multiple developers work on concurrently. 
+```bash
+git switch add-styles
+```
 
-Any time we want to make a change to our project, we should develop and test it on a __feature__ branche before finally deciding to incorporate our changes into the main __integration__ branch.
+If we run ```git log --oneline``` again, we can see that HEAD is now pointing to the new branch, add-styles:
+
+> ```bash
+> 8828696 (HEAD -> add-styles, main) added index.html
+> c750089 first commit, added README.md
+> ```
+{: .terminal}
+
+ This means that any changes we make will be recorded on the add-styles branch, while our main branch is untouched.
+
+---
+
+ Let's do some work on this branch and see what happens with git. Add the following code to a new file named style.css:
+
+>  ```css
+> body {
+>     text-align: center;
+>     background-color: lightblue;
+> }
+>  ```
+{: .copy-code}
+
+Now add style.css to the staging area and commit it:
+
+```bash
+git add style.css && git commit -m "added stylesheet"
+```
+
+Now let's see what ```git log --oneline``` has to say:
+
+> ```bash
+> 5cbef78 (HEAD -> add-styles) added stylesheet
+> 8828696 (main) added index.html
+> c750089 first commit, added README.md
+> ```
+{: .terminal}
+
+HEAD is still pointing to the add-styles branch. This means that the changes we made won't be reflected in main. We are now one commit "ahead" of main. 
+
+## Integration vs. Feature Branches
+---
+
+Almost all software development projects have this kind of structure. There is one branch where all the final changes get put together-- that's main. This is usually referred to as the __integration branch__. 
+
+Then there are branches that software developers are currently working on, but aren't ready to be integrated into main. These are referred to as __feature branches__. Our repository now has one feature branch-- add styles. But we can make as many feature branches as we want, and we should! This is one of the most useful features of git. 
+
+Any time we are going to make changes or implement a new feature, we should make a branch from the main integration branch. That way, if we don't like our changes, or discover they won't work, we still have a working copy of our software before we decided to tinker with it.
+
+> We can make a new branch and switch to it with just one command, instead of two:
+> ```bash
+> git checkout -b <new-branchname>
+> ```
+{: .pro-tip}

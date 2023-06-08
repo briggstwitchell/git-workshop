@@ -23,4 +23,6 @@ callouts:
   terminal:
     title: "Terminal Output:"
     color: green
-
+  copy-code:
+    title: "Copy me!"
+    color: yellow

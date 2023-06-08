@@ -33,7 +33,16 @@ Git status is a very handy command. It tells us:
 
 ***
 
-Let's create a README.md file for our code repository and run `git status` again.
+Let's create a README file for our website. Make a new file called README.md and copy the following code into it:
+
+> README.md:
+> ```
+> This website is all about git!
+> ```
+{: .copy-code}
+
+Now let's run ```git status``` again.
+
 
 > ```
 > On branch main
@@ -47,6 +56,8 @@ Let's create a README.md file for our code repository and run `git status` again
 > nothing added to commit but untracked files present (use "git add" to track)
 > ```
 {: .terminal }
+
+---
 
 Now git tells us we have an untracked file. 
 

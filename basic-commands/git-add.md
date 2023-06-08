@@ -69,7 +69,6 @@ In this message, git is telling us a few things:
 If we want to save the newest version of README.md to the index, we just add the file again:
 ```bash
 git add README.md 
-git status
 ```
 
 ---
