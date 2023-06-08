@@ -1,7 +1,7 @@
 ---
 title: git merge
 layout: default
-parent: Branching
+parent: Branching and Merging
 nav_order: 3
 ---
 # Git merge
@@ -75,16 +75,48 @@ When we run the command, git gives us a little info:
 > ```
 {: .terminal}
 
-Note that this is the same as our current commit hash. This is because branches aren't really structural features in git. Branches are just labels for the last commit on a certain path in the git graph. All git is telling us here is that it has removed the label from our current commit. Both branches, main and add-styles, were pointing to the same commit. Now only the main pointer remains, but nothing has materially changed.
+Note that the hash provided is the same as our current commit hash. 
 
+This is because branches aren't really structural features in git. Branches are just labels for the last commit on a certain path in the git graph. All git is telling us here is that it has removed the label from our current commit. Both branches, main and add-styles, were pointing to the same commit. Now only the main pointer remains, but nothing has materially changed.
+
+---
 ## Git is a graph
+---
 
 Specifically, it's a Directed Acyclic Graph. 
 
+Every commit you make is a __node__ in this graph.
+
+Each of these __child__ commits points to the commit before it, known as the __parent__ commit.
+
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+graph LR;
+    Commit-1---Commit-2---Commit-3;
 ```
+{: .text-center}
+
+
+
+If we had made any commits on main before merging with the add-styles branch, our graph would have looked like this before merging:
+
+```mermaid
+graph LR;
+    Main-1---Main-2---Add-Styles-1;
+    Main-2---Main-3;
+```
+{: .text-center}
+
+
+After merging, our git history would look like this:
+
+```mermaid
+graph LR;
+    Main-1---Main-2---Add-Styles-1;
+    Main-2---Main-3;
+    Main-3---Main-4;
+    Add-Styles-1---Main-4;
+```
+{: .text-center}
+
+This is typically how git histories look. Feature branches branch off from the main integration branch, and then lead back into it when they are merged.
+

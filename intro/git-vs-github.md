@@ -18,4 +18,4 @@ You can use git to track changes to any group of files you are working with. It'
 <br>
 [GitHub](https://github.com) is just a hosting service for git repositories. The same goes for GitLab, BitBucket, etc. We need these hosting websites to use git to collaborate with other software developers. 
 
-We will be learning about using GitHub later in the workshop, but first, we need to know git.
+We will be learning about using GitHub later in the workshop, but first, we need to know Git.

@@ -48,3 +48,15 @@ git log --oneline
 When you've got a lot of commits and are looking for one in particular, ```--oneline``` comes in handy. 
 
 The shortened commit hashes can also be used to go back to earlier commits.
+
+---
+# What is HEAD?
+---
+
+In the terminal output above, we can see that HEAD is pointing to main ```(HEAD -> main)```.
+
+Whenever we use git log, it shows us the history of our repository and __where we are__ relative to that history. Right now, our head is pointing to the second commit in the repository, our most recent commit. 
+
+If we wanted to go back to the state our repo was in when we made our first commit, we could use the git checkout command.
+
+Git checkout can accept either a relative position or an absolute one. 
