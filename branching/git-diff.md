@@ -2,7 +2,7 @@
 title: git diff
 layout: default
 parent: Branching and Merging
-nav_order: 4
+nav_order: 3
 ---
 
 # Git diff
@@ -40,50 +40,33 @@ This compares the branch we are currently on to the target branch. If we want to
 git diff main
 ```
 
-> ```bash
-> diff --git a/index.html b/index.html
-> index 54d393d..bb53c5a 100644
-> --- a/index.html
-> +++ b/index.html
-> @@ -20,7 +20,7 @@
->  <div id="skills" class="section">
->    <h2>-My Skills-</h2>
->    <ul>
-> -    <li></li>
-> +    <li>git</li>
->    </ul>
->  </div>
->  ```
+![diff w main](../images/diff/diff-w-main.png)
 {: .terminal}
 
 Git gives us a lot to look at here. 
 
-Line 1: 
-```bash
-diff --git a/index.html b/index.html
-```
+Line 1:
+
+![diff l1](../images/diff/diff-l1.png)
 * this tells us the file that is different on the 2 branches
 * a is always the target branch, in this case, it's main
 * b is the branch we are on, in this case, it's add-skills
 
 Lines 3-4: 
-```console
---- a/index.html
-+++ b/index.html
-```
+
+![diff l3-4](../images/diff/diff-l3-4.png)
 * these lines tell us how to interpret the rest of the output
 * lines from branch a (add-skills) will be led with '-'
 * lines from branch b (main) will be led with '+'
 
 Lines 9-10
-```html
--    <li></li>
-+    <li>git</li>
-```
+
+![diff l9-10](../images/diff/diff-l9-10.png)
 
 * plus and minus signs here tell us which files these different lines are from
-* add-skills branch has the first line
-* main has the second line
+* main branch has the first line
+* add-skills has the second line
+* git also color codes the lines for us
 
 ---
 # Exercise

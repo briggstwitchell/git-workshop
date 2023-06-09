@@ -19,20 +19,7 @@ So, what did this just do?
 
 When you run git init, you are setting up a git repository. This means that git is setting up any structures it needs to track your work, and placing them in a special folder called .git. Let's take a look at the contents of our directory now:
 
-__linux/mac__
-```bash
-ls -a
-```
-__windows__
-```powershell
-dir -Force
-```
----
-
-> ```bash
-> aristotle@aristotle:~/ws-playground$ ls -a
-> .  ..  .git
-> ```
+![show .git](../images/init/show-.git.png)
 {: .terminal }
 
 There it is! Our git repository is being maintained in the .git folder. 

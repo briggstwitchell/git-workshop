@@ -24,15 +24,7 @@ git add README.md
 
 Now what does `git status` tell us?
 
-> ```
-> On branch main
-> 
-> No commits yet
-> 
-> Changes to be committed:
->   (use "git rm --cached <file>..." to unstage)
-> 	new file:   README.md
-> ```
+![add readme](../images/add/add-readme.png)
 {: .terminal }
 
 Cool! Git is now actively watching our README.md file for changes. We could commit right now to permanently save our changes to the repository history. This would mean that anytime we wanted, we could have git take us back to this moment in the development of our project. Committing early and often is a good idea, but let's hold off just a little longer. Let's add another line to the file and see what git has to say about it. 
@@ -43,20 +35,7 @@ We know that git was tracking README.md for changes, so it should have noticed t
 
 Let's run `git status` again and see if it did:
 
-> ```
-> On branch main
-> 
-> No commits yet
-> 
-> Changes to be committed:
->   (use "git rm --cached <file>..." to unstage)
-> 	new file:   README.md
-> 
-> Changes not staged for commit:
->   (use "git add <file>..." to update what will be committed)
->   (use "git restore <file>..." to discard changes in working directory)
-> 	modified:   README.md
-> ```
+![changed readme](../images/add/changed-readme.png)
 {: .terminal}
 
 Yet another informative message from git. This is why you should run git status before you do anything else with the git repository. 

@@ -30,10 +30,7 @@ Let's run our favorite command again:
 git status
 ```
 
-> ```bash
-> On branch main
-> nothing to commit, working tree clean
-> ```
+![tree clean](../images/commit/clean-tree.png)
 {: .terminal}
 
 Now our changes have been immortalized in a commit.
@@ -83,13 +80,6 @@ Don't forget to include a descriptive message for your commit!
 <body>
 
 <div id="header"><h1>Your Name Here</h1></div>
-
-<div id="langs" class="section">
-  <h2>-My Languages-</h2>
-  <ul>
-    <li></li>
-  </ul>
-</div>
 
 <div id="skills" class="section">
   <h2>-My Skills-</h2>

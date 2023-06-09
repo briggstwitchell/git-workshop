@@ -2,7 +2,7 @@
 title: git merge
 layout: default
 parent: Branching and Merging
-nav_order: 3
+nav_order: 2
 ---
 # Git merge
 ---
@@ -15,10 +15,8 @@ Before we merge, we should do a few things:
 * Switch to the branch we want to merge into
 
 Running ```git status```:
-```bash
-> On branch add-styles
-> nothing to commit, working tree clean
-```
+
+![ready](../images/merge/ready.png)
 {: .terminal}
 
 Looks like all of our work is committed. 
@@ -38,24 +36,14 @@ Now let's run the merge command. The syntax for the merge command is ```git merg
 git merge add-styles
 ```
 
-> ```bash
-> Updating 8828696..5cbef78
-> Fast-forward
->  style.css | 4 ++++
->  1 file changed, 4 insertions(+)
->  create mode 100644 style.css
->  ```
+![fast forward](../images/merge/fast-forward.png)
 {: .terminal}
 
 Okay great, seems like it worked. 
 
 Let's take a look at ```git log --oneline``` again.
 
-> ```bash
-> 5cbef78 (HEAD -> main, add-styles) added stylesheet
-> 8828696 added index.html
-> c750089 first commit, added README.md
-> ```
+![merged log](../images/merge/merged-log.png)
 {: .terminal}
 
 Now HEAD is pointing at main again. This means we are on the main branch. We can see that now add-styles is on the same line as main. Main and add-styles are on the same commit, which is to say, their contents are identical now. 
@@ -75,9 +63,7 @@ git branch -d add-styles
 ```
 When we run the command, git gives us a little info:
 
-> ```bash
-> Deleted branch add-styles (was 5cbef78).
-> ```
+![delete branch](../images/merge/delete-branch.png)
 {: .terminal}
 
 Note that the hash provided is the same as our current commit hash. 

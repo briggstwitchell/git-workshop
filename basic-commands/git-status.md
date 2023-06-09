@@ -14,13 +14,7 @@ Anytime we want to see what's going on with git, we can run this command:
 git status
 ```
 
-> ```
-> On branch main
-> 
-> No commits yet
-> 
-> nothing to commit (create/copy files and use "git add" to track)
-> ```
+![status empty](../images/status/stat-empty.png)
 {: .terminal }
 
 Git status is a very handy command. It tells us:
@@ -44,17 +38,7 @@ Let's create a README file for our website. Make a new file called README.md and
 Now let's run ```git status``` again.
 
 
-> ```
-> On branch main
-> 
-> No commits yet
-> 
-> Untracked files:
->   (use "git add <file>..." to include in what will be committed)
->         README.md
-> 
-> nothing added to commit but untracked files present (use "git add" to track)
-> ```
+![status needs add](../images/status/stat-need-add.png)
 {: .terminal }
 
 ---

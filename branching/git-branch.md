@@ -24,10 +24,7 @@ Notice the form of the git branch command is ```git branch <new-branchname>```. 
 
 Let's run ```git log --oneline``` again to see what's going on with git:
 
-> ```git
-> 8828696 (HEAD -> main, add-styles) added index.html
-> c750089 first commit, added README.md
-> ```
+![check branch](../images/branch/check-branch.png)
 {: .terminal}
 
 There's our new branch, add-styles, right next to main. 
@@ -42,10 +39,7 @@ git switch add-styles
 
 If we run ```git log --oneline``` again, we can see that HEAD is now pointing to the new branch, add-styles:
 
-> ```bash
-> 8828696 (HEAD -> add-styles, main) added index.html
-> c750089 first commit, added README.md
-> ```
+![switched](../images/branch/switched.png)
 {: .terminal}
 
  This means that any changes we make will be recorded on the add-styles branch, while our main branch is untouched.
@@ -59,6 +53,7 @@ If we run ```git log --oneline``` again, we can see that HEAD is now pointing to
  - [ ] create a new branch called add-styles
  - [ ] switch to your new branch
  - [ ] create a file called style.css and copy the code below into it
+- [ ] add style.css to the staging area and commit it:
 
 ```css
 * {
@@ -79,19 +74,12 @@ body {
 }
 ```
 
-Now add style.css to the staging area and commit it:
+---
 
-```bash
-git add style.css && git commit -m "added stylesheet"
-```
 
 Now let's see what ```git log --oneline``` has to say:
 
-> ```bash
-> 5cbef78 (HEAD -> add-styles) added stylesheet
-> 8828696 (main) added index.html
-> c750089 first commit, added README.md
-> ```
+![committed](../images/branch/committed.png)
 {: .terminal}
 
 HEAD is still pointing to the add-styles branch. This means that the changes we made won't be reflected in main. We are now one commit "ahead" of main. 
