@@ -60,8 +60,16 @@ When we commit a file, we are placing it in the object database, aka our __repos
 We can revisit any of our old commits, no matter how far along we get in our project.
 
 ---
+# Exercise:
+---
 
-Exercise:
+- [ ] Create a file called index.html in your repository
+- [ ] Copy the code below and paste it into index.html
+- [ ] Add index.html to your staging area
+- [ ] Make a commit with a descriptive message 
+- [ ] ```git commit -m "<my descriptive commit message>"```
+
+Don't forget to include a descriptive message for your commit!
 
 ```html
 <html lang="en">
@@ -70,18 +78,27 @@ Exercise:
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css"></link>
-    <title>Document</title>
+    <title>Your Name Here</title>
 </head>
 <body>
 
-	<h1> hello git.</h1>
+<div id="header"><h1>Your Name Here</h1></div>
+
+<div id="langs" class="section">
+  <h2>-My Languages-</h2>
+  <ul>
+    <li></li>
+  </ul>
+</div>
+
+<div id="skills" class="section">
+  <h2>-My Skills-</h2>
+  <ul>
+    <li></li>
+  </ul>
+</div>
     
 </body>
 </html>
 ```
 
-- [ ] Copy the above into a file called index.html:
-- [ ] Add index.html to your index:
-- [ ] Commit your index to your repository:
-
-Don't forget to include a descriptive message for your commit!

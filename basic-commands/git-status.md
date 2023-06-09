@@ -37,7 +37,7 @@ Let's create a README file for our website. Make a new file called README.md and
 
 > README.md:
 > ```
-> This website is all about git!
+> # Personal Website
 > ```
 {: .copy-code}
 

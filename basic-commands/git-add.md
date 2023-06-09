@@ -37,7 +37,7 @@ Now what does `git status` tell us?
 
 Cool! Git is now actively watching our README.md file for changes. We could commit right now to permanently save our changes to the repository history. This would mean that anytime we wanted, we could have git take us back to this moment in the development of our project. Committing early and often is a good idea, but let's hold off just a little longer. Let's add another line to the file and see what git has to say about it. 
 ```bash
-echo "this website is going to be awesome" >> README.md
+A website for showcasing my skills.
 ```
 We know that git was tracking README.md for changes, so it should have noticed that the file changed. 
 
