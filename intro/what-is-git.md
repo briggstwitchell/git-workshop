@@ -1,5 +1,5 @@
 ---
-title: What is git?
+title: What is Git?
 layout: default
 parent: Introduction
 nav_order: 3
@@ -10,7 +10,7 @@ nav_order: 3
 
 Git is a version control system. It's a program that keeps track of a project and any changes that happen within that project's directories. 
 
-Git was created by Linus Torvalds, the guy who wrote the Linux kernel. Linus made git to help him develop software. He calls it "the dumb version control system".
+Git was created by Linus Torvalds, the guy who wrote the Linux kernel. Linus made Git to help him develop software. He calls it "the dumb version control system".
 
 ---
 # What does git do?

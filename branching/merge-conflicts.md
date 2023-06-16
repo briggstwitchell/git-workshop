@@ -2,7 +2,7 @@
 title: merge conflicts
 layout: default
 parent: Branching and Merging
-nav_order: 4
+nav_order: 5
 ---
 
 # Resolving Merge Conflicts
@@ -78,3 +78,10 @@ If I run ```git log --oneline --graph```:
 
 ![merge graph](../images/merge-conflicts/resolved.png)
 {: .terminal}
+
+---
+# Workshop goals
+- [x] learn what git is and why we should use it
+- [x] learn the basic git commands
+- [x] learn branching  and merging with git
+- [ ] learn git collaboration with GitHub

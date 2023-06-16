@@ -2,7 +2,7 @@
 title: git branch
 layout: default
 parent: Branching and Merging
-nav_order: 1
+nav_order: 2
 ---
 # Git branch
 ---

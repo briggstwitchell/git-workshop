@@ -2,12 +2,16 @@
 title: git merge
 layout: default
 parent: Branching and Merging
-nav_order: 2
+nav_order: 3
 ---
 # Git merge
 ---
 
-Once we're happy with the work we've done on our feature branch, the next thing we want to do is __integrate__ it into main. Git has a special command for this called __merge__.
+Once we're happy with the work we've done on our feature branch, the next thing we want to do is __integrate__ it into the main branch. Git has a special command for this called __merge__.
+
+Merging is taking all the file contents of one directory and adding them to another. Git can do this for us automatically with the ```git merge``` command. 
+
+This saves us a lot of work. Without the merge command, we would be forced to look through every line in our files, adding line by line any changes we made since the last time we saved.
 
 Before we merge, we should do a few things:
 * Run ```git status``` to make sure our changes are committed
@@ -68,7 +72,7 @@ When we run the command, git gives us a little info:
 
 Note that the hash provided is the same as our current commit hash. 
 
-This is because branches aren't really structural features in git. Branches are just labels for the last commit on a certain path in the git graph. All git is telling us here is that it has removed the label from our current commit. Once we merged them, both branches, main and add-styles, were pointing to the same commit. Now only the main pointer remains, but nothing has materially changed.
+This is because branches aren't really structural features in git. Branches are just labels for the last commit on a certain path in the git graph, kind of like HEAD is just a label for the commit we currently have checked out. All git is telling us here is that it has removed the label from our current commit. Once we merged them, both branches, main and add-styles, were pointing to the same commit. Now only the main pointer remains, but nothing has materially changed.
 
 ---
 ## Git is a graph
@@ -95,7 +99,7 @@ graph LR;
 {: .text-center}
 
 
-After merging, our git history would look like this:
+After merging, our Git history would look like this:
 
 ```mermaid
 graph LR;
@@ -106,5 +110,5 @@ graph LR;
 ```
 {: .text-center}
 
-This is typically how git histories look. Feature branches branch off from the main integration branch, and then lead back into it when they are merged.
+This is typically how Git histories look. Feature branches branch off from the main integration branch, and then lead back into it when they are merged.
 

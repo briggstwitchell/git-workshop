@@ -13,3 +13,9 @@ This section will focus on using Github to back up our projects and collaborate 
 You will need a Github account to follow along. 
 
 If you don't have one yet, you can follow this link: [join github](https://github.com/join)
+
+# Workshop goals
+- [x] learn what git is and why we should use it
+- [x] learn the basic git commands
+- [x] learn branching with git
+- [ ] learn git collaboration with GitHub
