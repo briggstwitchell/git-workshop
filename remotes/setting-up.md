@@ -1,5 +1,5 @@
 ---
-title: remote repositories
+title: setting up a remote
 layout: default
 parent: Remotes and Github
 nav_order: 1
