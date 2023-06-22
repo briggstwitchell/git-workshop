@@ -14,7 +14,11 @@ Now that we have made a few commits, we should take a look at the history of our
 git log
 ```
 
-Git log shows us each commit in our repository history, along with the hash of the commit. We will learn a little more about these hashes later, but just know that git uses a commit's hash to uniquely identify it.
+Git log shows us each commit in our repository history, along with the __hash__ of the commit. 
+
+Git uses a commit's hash to uniquely identify it. 
+
+We can use commit hashes to revisit old commits.
 
 ![log long](../images/log/log-long.png)
 {: .terminal}
@@ -30,7 +34,9 @@ git log --oneline
 ![log oneline](../images/log/log-oneline.png)
 {: .terminal}
 
-When you've got a lot of commits and are looking for one in particular, ```--oneline``` comes in handy. 
+When you've got a lot of commits and are looking for one in particular, the ```--oneline``` option comes in handy. 
+
+You'll notice the commits in this version of the log have short hashes. These can also be used to go back to a commit.
 
 ---
 

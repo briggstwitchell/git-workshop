@@ -38,12 +38,12 @@ Let's run `git status` again and see if it did:
 ![changed readme](../images/add/changed-readme.png)
 {: .terminal}
 
-Yet another informative message from git. This is why you should run git status before you do anything else with the git repository. 
+Yet another informative message from Git. This is why you should run git status before you do anything else with the Git repository. 
 
-In this message, git is telling us a few things:
+In this message, Git is telling us a few things:
 * the old version of README.md can be committed now
 * the new version (with the extra line) would not be committed if we made a commit right now
-* we could also throw away our new changes by using git restore
+* we could also throw away our new changes by using ```git restore <filename>```
 
 If we want to save the newest version of README.md to the index, we just add the file again:
 ```bash

@@ -37,22 +37,23 @@ Now our changes have been immortalized in a commit.
 
 ---
 # Adding vs Committing
+---
 
 Adding and committing are different. 
 
-When we *add* a file, we are placing it in the __index__.
+When we *add* a file, we are placing it in the __staging area__.
 
-When we *commit*, we are adding everything in the index to the __object database__.
+When we *commit*, we are adding everything in the index to the __repository history__.
 <br>
 
 !["index vs repo"](../images/git-staging-area.png)
 {: .text-center}
 
-The index is also known as the __staging area__. We can add to the index as many times as we want before committing. The staging area saves our most recent changes, but they're not permanent. Only commits can be revisited in the long term.
+We can add to the _staging area__ as many times as we want before committing. 
+ 
+There is no way to revisit the state of the staging area later. Only -__commits__ can be revisited.
 
-Adding to the staging area is a good idea if we have reached a good spot in our project, but we're not ready to make a breadcrumb for us to come back to. Adding to the index often is a good idea. Files in the index can be restored to the working directory, so if we mess something up before we have committed, but we added our last working state to the index, we can get back to it. Think of it as a quicksave feature.
-
-When we commit a file, we are placing it in the object database, aka our __repository__.
+You can think of the staging area as a middle ground. Files in the staging area aren't permanent features of the repo, but they give us a state to fall back to if we are in between commits.
 
 We can revisit any of our old commits, no matter how far along we get in our project.
 
@@ -91,4 +92,3 @@ Don't forget to include a descriptive message for your commit!
 </body>
 </html>
 ```
-
