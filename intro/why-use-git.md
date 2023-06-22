@@ -2,7 +2,7 @@
 title: Why use Git?
 layout: default
 parent: Introduction
-nav_order: 5
+nav_order: 4
 ---
 
 # Why use Git?
@@ -34,9 +34,15 @@ Can’t I just back all of my code up into a folder?
 
 Yes, it's true, you could do this. But just imagine how many folders you'd have after a while.
 
- Which one is the oldest? Which one includes what changes? 
+Which one is the oldest? 
 
-Git gives us a system for keeping track of all of this information and more, and spares us the mess of creating multiple backup directories.
+Which one includes what changes? 
+
+What if you want to work on your program with someone else? 
+
+Which folder should you share with them? What if you both make changes to the same part of the project? How can you resolve this conflict?
+
+Git gives us a system for keeping track of all of this information and more, and spares us the mess of creating multiple backup directories. It provides a way to share the workload of a project with multiple developers, and resolve the conflicts that inevitably arise when you collaborate.
 
 ---
 

@@ -2,7 +2,7 @@
 title: Git vs GitHub
 layout: default
 parent: Introduction
-nav_order: 3
+nav_order: 2
 ---
 
 # Git vs GitHub
@@ -16,9 +16,9 @@ nav_order: 3
     <img src="../images/intro/resized_github-icon.png" style="width:40%">
 </div>
 
-One common misconception surrounding git is that it is a part of GitHub, or that you can't use Git without GitHub. This is not true! 
+One common misconception surrounding Git is that it is a part of GitHub, or that you can't use Git without GitHub. This is not true! 
 
-You can use Git to track changes to any group of files you are working with. It's commonly used for software development, but you can use git to track pretty much anything.
+You can use Git to track changes to any group of files you are working with. It's commonly used for software development, but you can use Git to track any group of files.
 
 ---
 ## Okay, then what is GitHub?
@@ -28,3 +28,5 @@ You can use Git to track changes to any group of files you are working with. It'
 The same goes for GitLab, BitBucket, etc. We need these hosting websites to use git to collaborate with other software developers. 
 
 We will be learning about using GitHub later in the workshop, but first, we need to know Git.
+
+In order to follow along with the last section of the workshop, you will need a GitHub profile. If you don't have one yet, you can [sign up for a free account](https://github.com/join).

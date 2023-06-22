@@ -14,11 +14,18 @@ nav_order: 1
 ---
 # Workshop Format
 ---
-This workshop will be a live demonstration of using the git version control system.
+This workshop will be a live demonstration of using the Git version control system.
 
-I'm going to be creating a simple web site from scratch, showing how to use git to save my work, safely modify it, and collaborate with other developers. I'll be using VSCode and the command line quite a bit.
+I'm going to be creating a very simple web site from scratch, showing how to use Git to save my work, safely modify it, and collaborate with other developers. 
 
-I encourage you to follow along on the workshop website, and to return here if you ever need a refresher!
+I encourage you to follow along on the workshop website, and to return here if you ever need a refresher.
+
+I'll be using VSCode and the command line to create and modify files in this website project. If you'd like to follow me exactly, you should [download and install VSCode](https://code.visualstudio.com/download).
+
+
+If you don't have Git installed yet, you can follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+All commands used in this workshop can be run from the command line.
 
 ---
 # Workshop goals
