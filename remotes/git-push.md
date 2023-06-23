@@ -30,24 +30,24 @@ Now if you go to your browser and enter "\<your-username\>.github.io", your site
 Any time we run the ```git push``` command, we will update the remote tracking branch that is hosted on GitHub.
 
 ---
-# Exercise:
----
-
-```css
-.section{
-	text-align: center;
-	width:75%;
-	margin: 10px auto 10px auto;
-}
-
-li {
-	list-style-type: none;
-	padding: 10px;
-	font-size: large;
-}
-```
-
-- [ ] Add the above code to your style.css file
-- [ ] Add and commit your changes to your local branch
-- [ ] Use ```git push origin main``` to push to your remote branch
-- [ ] Visit your website at \<your-user-name\>.github.io to see the changes
+> ## Exercise:
+> 
+> ```css
+> .section{
+> 	text-align: center;
+> 	width:75%;
+> 	margin: 10px auto 10px auto;
+> }
+> 
+> li {
+> 	list-style-type: none;
+> 	padding: 10px;
+> 	font-size: large;
+> }
+> ```
+> 
+> - [ ] Add the above code to your style.css file
+> - [ ] Add and commit your changes to your local branch
+> - [ ] Use ```git push origin main``` to push to your remote branch
+> - [ ] Visit your website at \<your-user-name\>.github.io to see the changes
+{: .exercise}

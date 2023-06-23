@@ -16,7 +16,7 @@ I'm going to set up a situation where there is a merge conflict and show you how
 
 Right now, my add-skills branch has one skill: git.
 
-I'm going to switch back to main, but instead of merging, I'm going to add to the same line of index.html and commit my changes. When I run ```git diff add-skills```:
+I'm going to switch back to main, but instead of merging, I'm going to add to the same line of index.html and commit my changes. When I run `git diff add-skills`:
 
 ![diff conflict](../images/merge-conflicts/diff-conflict.png)
 {: .terminal}
@@ -80,8 +80,3 @@ If I run ```git log --oneline --graph```:
 {: .terminal}
 
 ---
-# Workshop goals
-- [x] learn what git is and why we should use it
-- [x] learn the basic git commands
-- [x] learn branching  and merging with git
-- [ ] learn git collaboration with GitHub

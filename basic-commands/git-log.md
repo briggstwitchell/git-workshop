@@ -40,9 +40,8 @@ You'll notice the commits in this version of the log have short hashes. These ca
 
 ---
 
-# Workshop goals
-- [x] learn what git is and why we should use it
-- [x] learn the basic git commands
-- [ ] learn branching and merging with git
-- [ ] learn git collaboration with GitHub
+## Exercise
+- [ ] Now that you have a few commits, run `git log` to look at them
+- [ ] Try `git log --oneline` to shorten the output
+- [ ] Now try `git log --stat` to view the changes made in each commit
 

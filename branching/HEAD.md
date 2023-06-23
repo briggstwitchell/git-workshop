@@ -58,15 +58,14 @@ git checkout HEAD~1
 ```
 
 ---
-# Exercise:
----
-
-- [ ] Use ```git checkout``` with your last commit's hash to go back in time
-	* you will need to get the commit's hash using ```git log```
-	* you can paste from the clipboard into the terminal by using ```Ctrl+Shift+V```
-- [ ] Use ```git checkout main``` to return to the most recent commit
-- [ ] Use ```git checkout HEAD~1``` to go back one commit
-
+> ## Exercise:
+> 
+> - [ ] Use ```git checkout``` with your last commit's hash to go back in time
+> 	* you will need to get the commit's hash using ```git log```
+> 	* you can paste from the clipboard into the terminal by using ```Ctrl+Shift+V```
+> - [ ] Use ```git checkout main``` to return to the most recent commit
+> - [ ] Use ```git checkout HEAD~1``` to go back one commit
+{: .exercise}
 
 
 

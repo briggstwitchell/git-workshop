@@ -68,3 +68,8 @@ Now scroll to the bottom and click "Generate token":
 ![step9](../images/remote/step-9.png)
 
 Finally! Copy your token to your clipboard. Make sure you do this, as if you leave this page without copying the token you will have to start all over.
+
+> If you are planning to push and pull from GitHub a lot, you should set up SSH access
+> 
+> SSH is beyond the scope of this workshop, but you can learn more [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+{: .note}

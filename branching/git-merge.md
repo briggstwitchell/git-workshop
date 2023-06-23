@@ -112,3 +112,14 @@ graph LR;
 
 This is typically how Git histories look. Feature branches branch off from the main integration branch, and then lead back into it when they are merged.
 
+---
+> ## Exercise
+> - [ ] From your add-styles branch, add and commit any unsaved changes
+> - [ ] Run `git status` to make sure your working tree is clean
+> - [ ] switch back to your main branch using `git switch main`
+> - [ ] Merge your add-styles branch into main by running `git merge add-styles`
+> - [ ] Run `git log --oneline` to see that the branches have merged
+>     * you should see that main and add-styles both appear on the same line
+>     * HEAD should point to main
+{: .exercise}
+

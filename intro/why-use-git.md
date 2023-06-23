@@ -19,11 +19,11 @@ Software projects get bigger and more complicated as they get older.
 
 Once a project is a certain size, we need version control to make changes to it without breaking it.
 
-Git gives us a clean way to back-track to older versions of our code that we know work. Every __commit__ you make with git is a point in the development of your program that you can revisit.
-
-These commits last forever (unless we intentionally get rid of them).
+Git gives us a clean way to back-track to older versions of our code that we know work. 
 
 Git allows us to keep multiple versions of our code base on different __branches__-- another important git concept we will get to later.
+
+GitHub lets us share our repositories with other developers and collaborate with them in real time.
 
 ---
 
@@ -45,12 +45,5 @@ Which folder should you share with them? What if you both make changes to the sa
 Git gives us a system for keeping track of all of this information and more, and spares us the mess of creating multiple backup directories. It provides a way to share the workload of a project with multiple developers, and resolve the conflicts that inevitably arise when you collaborate.
 
 ---
-
-# Workshop goals
-- [x] learn what git is and why we should use it
-- [ ] learn the basic git commands
-- [ ] learn branching with git
-- [ ] learn merging with git
-- [ ] learn git collaboration with GitHub
 
 Alright, enough theory. Let's git started...

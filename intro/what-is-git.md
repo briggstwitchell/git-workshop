@@ -5,7 +5,7 @@ parent: Introduction
 nav_order: 3
 ---
 
-# What even is git?
+# What even is Git?
 ---
 
 ![git logo](../images/intro/git-icon.png)
@@ -16,7 +16,7 @@ Git is a __version control system__. It's a program that keeps track of a projec
 Git was created by Linus Torvalds, the guy who wrote the Linux kernel. Linus made Git to help him develop software. He calls it "the dumb version control system".
 
 ---
-# What does git do?
+# What does Git do?
 
 ---
 ### The Tale of Hansel and Git-el

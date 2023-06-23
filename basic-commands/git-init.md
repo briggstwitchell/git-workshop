@@ -28,6 +28,15 @@ There it is! Our git repository is being maintained in the .git folder.
 > .git is a **hidden** folder, so it won't show up in your file system unless you reveal hidden files. We won't be modifying the folder anyway, but it's good to know it is there. 
 {: .note}
 
-Since our repository was started in this directory, git will track any files we tell it about in this directory or any subdirectories we create. 
+Running ```git init``` should be one of the first steps you take when starting any software development project.
 
-Aside from listing the directory contents, there are some other ways we can find out what is going on with our git repository...
+Since our repository was started in this directory, Git will track any files we tell it about in this directory or any subdirectories we create inside this one. 
+
+Aside from listing the directory contents, there are some other ways we can find out what is going on with our Git repository...
+
+---
+> ## Exercise
+> - [ ] create a new directory for your project
+> - [ ] inside this directory, run ```git init```
+> - [ ] make sure your terminal says it has initialized a Git repository
+{: .exercise}

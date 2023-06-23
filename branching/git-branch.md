@@ -45,35 +45,36 @@ If we run ```git log --oneline``` again, we can see that HEAD is now pointing to
  This means that any changes we make will be recorded on the add-styles branch, while our main branch is untouched.
 
 ---
-# Exercise
----
-
- Let's do some work on this branch and see what happens with git. 
-
- - [ ] create a new branch called add-styles
- - [ ] switch to your new branch
- - [ ] create a file called style.css and copy the code below into it
-- [ ] add style.css to the staging area and commit it:
-
-```css
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	font-family: monospace;
-}
-
-body {
-	background-color: aliceblue;
-}
-
-#header {
-	background-color: lightblue;
-	padding: 10px;
-	border-bottom: 1px solid black;
-}
-```
-
+> ## Exercise
+> ---
+> 
+>  Let's do some work on this branch and see what happens with git. 
+> 
+>  - [ ] create a new branch called add-styles
+>  - [ ] switch to your new branch
+>  - [ ] create a file called style.css and copy the code below into it
+> - [ ] add style.css to the staging area and commit it:
+> 
+> ```css
+> * {
+> 	box-sizing: border-box;
+> 	padding: 0;
+> 	margin: 0;
+> 	font-family: monospace;
+> }
+> 
+> body {
+> 	background-color: aliceblue;
+> }
+> 
+> #header {
+> 	background-color: lightblue;
+> 	padding: 10px;
+> 	border-bottom: 1px solid black;
+> }
+> ```
+> 
+{: .exercise}
 ---
 
 

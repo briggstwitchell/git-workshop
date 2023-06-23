@@ -8,13 +8,13 @@ nav_order: 4
 # Git diff
 ---
 
-Let's make another branch for adding some of our skills to our website.
+I'm going to make another branch for adding some skills to my website.
 
 ```bash
 git checkout -b add-skills
 ```
 
-Now let's edit our index.html skills section to include git:
+Now I'll edit my index.html skills section to include git:
 
 index.html:
 ```html
@@ -28,11 +28,11 @@ index.html:
 ...
 ```
 
-Add your changes to the staging area using ```git add .```
+Now I'll add my changes to the staging area using `git add .`
 
-Now let's try another handy git command, ```git diff```. 
+Now let's try another handy git command, `git diff`. 
 
-To use git diff, we use the command format ```git diff <target branch>``` 
+To use git diff, we use the command format `git diff <target branch>` 
 
 This compares the branch we are currently on to the target branch. If we want to see the differences between main and our current branch, add-skills, we should run:
 
@@ -69,10 +69,10 @@ Lines 9-10
 * git also color codes the lines for us
 
 ---
-# Exercise
----
-- [ ] create a new branch from main 
-- [ ] switch to the branch and add to your skills
-- [ ] use git diff to compare your new branch to main
-- [ ] commit your changes and switch back to main
-- [ ] merge your changes into the main branch using git merge
+> ## Exercise
+> - [ ] create a new branch from main called add-skills
+> - [ ] switch to the new branch and add to your skills in index.html
+> - [ ] use git diff to compare your new branch to main using 
+> - [ ] commit your changes and switch back to main
+> - [ ] merge your changes into the main branch using `git merge`
+{: .exercise}

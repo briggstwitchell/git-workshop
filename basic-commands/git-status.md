@@ -22,21 +22,23 @@ Git status is a very handy command. It tells us:
 * what we've done - we haven't committed anything yet
 * what we can do - we can add files to start tracking them
 
->Any time you're going to start issuing commands to git, it's a good idea to run git status first. It's a passive command, it doesn't change anything about your directory or repository. Running git status never hurts!
+>Any time you're going to start issuing commands to Git, it's a good idea to run ```git status``` first. 
+> 
+> It's a passive command, it doesn't change anything about your directory or repository. Running git status never hurts!
 {: .pro-tip}
 
 ***
 
-Let's create a README file for our website. Make a new file called README.md and copy the following code into it:
+When we ran Git init, Git started watching for files being created in that directory.
 
-> README.md:
-> ```
-> # Personal Website
-> ```
-{: .copy-code}
+I'm going to create a README file for my website. 
 
-Now let's run ```git status``` again.
+README.md:
+```
+# Personal Website
+```
 
+Once I've created it, if I run ```git status```, I get the following output:
 
 ![status needs add](../images/status/stat-need-add.png)
 {: .terminal }
@@ -47,4 +49,13 @@ Now git tells us we have an untracked file.
 
 What does this mean? 
 
-Well, git only tracks files that we tell it to keep track of. We've started our project by adding the README file, but we haven't told git to start watching it for changes yet. As far as git is concerned, this is still an empty directory. This is one quirk of git, it ignores anything in our folder that we don't specifically tell it about. Until we use our next commmand...
+Git only tracks files that we tell it to keep track of. We've started our project by adding the README file, but we haven't told Git to start watching it for changes yet. 
+
+As far as git is concerned, this is still an empty directory. This is one quirk of git, it ignores anything in our folder that we don't specifically tell it about. Until we use our next commmand...
+
+---
+> ## Exercise
+> - [ ] run ```git status``` in your project directory
+> - [ ] create a README.md file in your project directory
+> - [ ] run ```git status``` again and look at the output
+{: .exercise}

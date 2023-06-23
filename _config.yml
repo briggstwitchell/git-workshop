@@ -22,8 +22,8 @@ callouts:
   terminal:
     title: "Terminal Output:"
     color: green
-  copy-code:
-    title: "Copy me!"
+  exercise:
+    title: ""
     color: yellow
 
 mermaid:
