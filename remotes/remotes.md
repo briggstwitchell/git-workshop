@@ -72,6 +72,6 @@ graph LR;
 
 > ## Exercise
 > - [ ] Go to your remote repository page on GitHub using your browser
-> - [ ] Make an edit to your README.ms file
+> - [ ] Make an edit to your README.md file
 > - [ ] Commit the changes you made on GitHub
 {: .exercise}

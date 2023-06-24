@@ -11,14 +11,15 @@ nav_order: 4
 <img style="max-height: 30vh" src="../images/intro/github-icon.png">
 {: .text-center}
 
-This section will focus on using Github to back up our projects and collaborate with other developers. 
+This section will focus on using Github to host and back up our projects.
 
 You will need a Github account to follow along. 
 
 If you don't have one yet, you can follow this link: [join github](https://github.com/join)
 
 # Workshop goals
-- [x] learn what git is and why we should use it
-- [x] learn the basic git commands
-- [x] learn branching with git
-- [ ] learn git collaboration with GitHub
+- [x] learn what Git is and why we should use it
+- [x] learn the basic Git commands
+- [x] learn branching and merging with Git
+- [ ] learn remote repositories with GitHub
+- [ ] learn collaboration with GitHub

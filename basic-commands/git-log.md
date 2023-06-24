@@ -40,8 +40,8 @@ You'll notice the commits in this version of the log have short hashes. These ca
 
 ---
 
-## Exercise
-- [ ] Now that you have a few commits, run `git log` to look at them
-- [ ] Try `git log --oneline` to shorten the output
-- [ ] Now try `git log --stat` to view the changes made in each commit
-
+> ## Exercise
+> - [ ] Now that you have a few commits, run `git log` to look at them
+> - [ ] Try `git log --oneline` to shorten the output
+> - [ ] Now try `git log --stat` to view the changes made in each commit
+{: .exercise}

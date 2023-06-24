@@ -25,14 +25,16 @@ A quick recap of the material we covered today:
 ---
 
 # Workshop goals
-- [x] learn what git is and why we should use it
-- [x] learn the basic git commands
-- [x] learn branching and merging with git
-- [x] learn git collaboration with GitHub
+- [x] learn what Git is and why we should use it
+- [x] learn the basic Git commands
+- [x] learn branching and merging with Git
+- [x] learn remote repositories with GitHub
+- [x] learn collaboration with GitHub
 
 ---
 
 ## Additional Resources:
+* [git kraken cheat sheet](../images/gitkraken-git-basics-cheat-sheet.pdf)
 * [interactive visual git branching tutorial](https://learngitbranching.js.org/?locale=en_US)
 * [free git book](https://git-scm.com/book/en/v2)
 * [official git documentation](https://git-scm.com/doc)

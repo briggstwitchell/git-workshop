@@ -18,9 +18,10 @@ git config --global user.name "<your github username>"
 git config --global user.email "<your github email>"
 ```
 # Workshop goals
-- [x] learn what git is and why we should use it
-- [ ] learn the basic git commands
-- [ ] learn branching and merging with git
-- [ ] learn git collaboration with GitHub
+- [x] learn what Git is and why we should use it
+- [ ] learn the basic Git commands
+- [ ] learn branching and merging with Git
+- [ ] learn remote repositories with GitHub
+- [ ] learn collaboration with GitHub
 
 By the end of this section, you'll know enough git to be dangerous...
