@@ -28,7 +28,7 @@ git branch
 ![check branch](../images/branch/list-branch.png)
 {: .terminal}
 
-We see that we now have 2 branches: our original `main` and our new one called `add-styles`.
+We see that we now have 2 branches: our original 'main' and our new one called 'add-styles'.
 
 Let's now run ```git log --oneline``` again to see what's going on with git:
 
