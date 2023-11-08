@@ -61,6 +61,7 @@ Lines 3-4:
 * branch `b` (add-skills) will be led with '+'
 
 Line 5:
+
 ![diff l5](../images/diff/diff-l5.png)
 * This line tells us the displayed lines for each version
 * `-l,s` indicates the starting line `l` (inclusive) and the number of lines beyond that `s` (exclusive) for version `a`
