@@ -14,7 +14,7 @@ I'm going to make another branch for adding some skills to my website.
 git checkout -b add-skills
 ```
 
-Now I'll edit my index.html skills section to include git:
+Now I'll add `git` to my skills section in the index.html file. That section should now look like this:
 
 index.html:
 ```html
@@ -49,24 +49,34 @@ Line 1:
 
 ![diff l1](../images/diff/diff-l1.png)
 * this tells us the file that is different on the 2 branches
-* a is always the target branch, in this case, it's main
-* b is the branch we are on, in this case, it's add-skills
+* `a` is always the target branch, in this case, it's `main`
+* `b` is the branch we are on, in this case, it's `add-skills`
+* We view changes from the perspective of the target, `a`. That is, deviations from the target are displayed (think 'A/B testing' -- `a` is old and `b` is new)
 
 Lines 3-4: 
 
 ![diff l3-4](../images/diff/diff-l3-4.png)
-* these lines tell us how to interpret the rest of the output
-* lines from branch a (add-skills) will be led with '-'
-* lines from branch b (main) will be led with '+'
+* these lines tell us how to interpret line 5
+* branch `a` (main) will be led with '-'
+* branch `b` (add-skills) will be led with '+'
 
-Lines 9-10
+Line 5:
+![diff l5](../images/diff/diff-l5.png)
+* This line tells us the displayed lines for each version
+* `-l,s` indicates the starting line `l` (inclusive) and the number of lines beyond that `s` (exclusive) for version `a`
+* `+l,s` indicates the starting line `l` (inclusive) and the number of lines beyond that `s` (exclusive) for version `b`
+* We modified a single line, so the affected lines are the same: `-20,7` and `+20,7`. If we'd instead appended, deleted, or inserted a line, these values would differ.
 
-![diff l9-10](../images/diff/diff-l9-10.png)
+Lines 6-12
 
-* plus and minus signs here tell us which files these different lines are from
-* main branch has the first line
-* add-skills has the second line
-* git also color codes the lines for us
+![diff l6-12](../images/diff/diff-l6-12.png)
+
+* These lines display the change made, as well as preceding and and subsequent lines for context
+* <span style="color:green;">+ indicates what was added in version b</span> 
+* <span style="color:red;">- indicates what was deleted in version b</span> 
+* A modification to a line is considered to be a deletion of the entire line and then an addition to that same line, as we see here
+
+You can also run `git diff` without specifying another branch or commit hash, and this will display the difference between your current changes and the most recent changes added to the staging area.
 
 ---
 > ## Exercise
