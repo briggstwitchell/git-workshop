@@ -40,7 +40,7 @@ Next, we need to choose an authentication method. For this demonstration, we wil
 Now go to your command line in your repository and type:
 
 ```bash
-git remote add origin
+git remote add origin [URL]
 ```
 
 Paste the link after the command. In the terminal, you will need to press Ctrl+Shift+V to paste.
@@ -67,9 +67,14 @@ Now scroll to the bottom and click "Generate token":
 
 ![step9](../images/remote/step-9.png)
 
-Finally! Copy your token to your clipboard. Make sure you do this, as if you leave this page without copying the token you will have to start all over.
+Finally! Copy your token to your clipboard. Make sure you do this. If you leave this page without copying the token you will have to start all over.
 
 > If you are planning to push and pull from GitHub a lot, you should set up SSH access
 > 
 > SSH is beyond the scope of this workshop, but you can learn more [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 {: .note}
+---
+A brief aside on `git remote add origin [URL]`:
+* When we execute this, we're setting `origin` is the alias for the URL of the remote copy of our local repo
+* This command modifies the config file in my .git hidden folder, specifying what `origin` is pointing to
+* For the curious, execute `cat .git/config` and see for yourself
