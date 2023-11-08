@@ -20,14 +20,22 @@ First, let's make a new branch by running this command:
 git branch add-styles
 ```
 
-Notice the form of the git branch command is ```git branch <new-branchname>```. Our new branch name can't contain any spaces, and should give some idea of what kind of changes we are thinking about implementing on the branch.
+Notice the form of the git branch command is ```git branch <new-branchname>```. Our new branch name can't contain any spaces, and should give some idea of what kind of changes we are thinking about implementing on the branch. We can list out all of our currently available branches with this command:
 
-Let's run ```git log --oneline``` again to see what's going on with git:
+```bash
+git branch
+```
+![check branch](../images/branch/list-branch.png)
+{: .terminal}
+
+We see that we now have 2 branches: our original `main` and our new one called `add-styles`.
+
+Let's now run ```git log --oneline``` again to see what's going on with git:
 
 ![check branch](../images/branch/check-branch.png)
 {: .terminal}
 
-There's our new branch, add-styles, right next to main. 
+There's our new branch, add-styles, right next to main.
 
 We can see that HEAD is pointing to main right now. This means that we have created our new branch, but we still need to __switch__ to it.
 
