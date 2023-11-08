@@ -17,7 +17,7 @@ git init
 
 So, what did this just do? 
 
-When you run git init, you are setting up a git repository. This means that git is setting up any structures it needs to track your work, and placing them in a special folder called .git. Let's take a look at the contents of our directory now:
+When you run git init, you are setting up a git repository. This means that git is setting up any structures it needs to track your work, and placing them in a special folder called .git. Let's take a look at the contents of our directory now by executing `ls -a`:
 
 ![show .git](../images/init/show-.git.png)
 {: .terminal }
