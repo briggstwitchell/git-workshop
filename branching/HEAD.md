@@ -1,4 +1,4 @@
----
+![image](https://github.com/briggstwitchell/git-workshop/assets/102424267/6f854ccc-fd8e-4c98-8337-9c7280bede9e)---
 title: What is HEAD?
 layout: default
 parent: Branching and Merging
@@ -27,13 +27,14 @@ This is typically the case. Since we are usually adding to our most recent chang
 
 Whatever HEAD is pointing to is what will be shown in your working directory.
 
-We can use ```git checkout <commit hash>``` to go back in time to an older commit.
+I can use ```git checkout 3c496cd``` to go back in time to an older commit.
 
 ```bash
-git checkout 3c496cd
+git checkout [commit-hash]
+
 ```
 
-In the above command, we use the commit hash of our first commit to place HEAD.
+In the above command, we use the commit hash of our first commit to place HEAD. We need to provide at least the first 4 characters to specify the commit hash we want to move to.
 
 If we run ```git log```:
 
