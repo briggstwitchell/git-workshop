@@ -1,3 +1,7 @@
+# Git workshop
+---
+This repo is a modification of [Tony Burwinkle's](https://github.com/tonyburwinkel/git-workshop). Most of the credit goes to him! It uses the just-the-docs-template (see below) :) 
+---
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
