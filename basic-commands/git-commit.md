@@ -49,7 +49,7 @@ When we *commit*, we are adding everything in the staging area to the __reposito
 !["index vs repo"](../images/git-staging-area.png)
 {: .text-center}
 
-We can add to the _staging area__ as many times as we want before committing. 
+We can add to the __staging area__ as many times as we want before committing. 
 
 You can think of the staging area as a middle ground. Files in the staging area aren't permanent features of the repo, but they give us a state to fall back to if we are in between commits.
 
