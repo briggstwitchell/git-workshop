@@ -13,12 +13,13 @@ Now that we have made a few commits, we should take a look at the history of our
 ```bash
 git log
 ```
+This command shows us a few things:
+- **Commit Hash**: A unique identifier for each commit.
+- **Author**: The name and email of the person who made the commit.
+- **Date**: The date and time the commit was made.
+- **Commit Message**: A description of the changes made in the commit.
 
-Git log shows us each commit in our repository history, along with the __hash__ of the commit. 
-
-Git uses a commit's hash to uniquely identify it. 
-
-We can use commit hashes to revisit old commits.
+Commit hashes are important because they let us revisit old commits.
 
 ![log long](../images/log/log-long.png)
 {: .terminal}
