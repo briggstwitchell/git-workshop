@@ -1,4 +1,4 @@
-![image](https://github.com/briggstwitchell/git-workshop/assets/102424267/6f854ccc-fd8e-4c98-8337-9c7280bede9e)---
+---
 title: What is HEAD?
 layout: default
 parent: Branching and Merging
