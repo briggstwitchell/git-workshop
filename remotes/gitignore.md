@@ -15,7 +15,7 @@ nav_order: 3
 I'm going to create a file called secrets to store my access token.
 
 ```bash
-echo "my_access_token" >> secrets.txt
+echo "<your pasted access token>" >> secrets.txt
 ```
 
 If I added and committed to my repository now, the password for my remote repository would be visible to the public. This would be bad.
