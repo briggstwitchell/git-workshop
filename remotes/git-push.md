@@ -12,7 +12,7 @@ nav_order: 4
 Now that we have set up the remote on GitHub and created our access token, we are ready to send our repository to the cloud. We do this by using git's push command:
 
 ```bash
-git push origin main
+git push -u origin main
 ```
 
 Enter your github username when prompted, and paste your access token into the console using Ctrl+Shift+V.
