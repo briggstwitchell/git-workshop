@@ -31,7 +31,6 @@ I can use ```git checkout 3c496cd``` to go back in time to an older commit.
 
 ```bash
 git checkout [commit-hash]
-
 ```
 
 In the above command, we use the commit hash of our first commit to place HEAD. We need to provide at least the first 4 characters to specify the commit hash we want to move to.
