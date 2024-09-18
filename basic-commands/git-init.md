@@ -8,7 +8,16 @@ nav_order: 2
 # Git init
 ---
 
-First, let's start a git project in our directory.
+You can check that you have git on you machine with `git --version`. If the operation isn't recognized, see [this page](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for installing git.
+
+To get started, we'll want to make sure we're in an isolated director. Let's create that with
+
+```bash
+mkdir my_repo
+cd my_repo
+```
+
+Now, let's start a git project in our directory.
 open a terminal and type:
 
 ```bash
